@@ -9,12 +9,13 @@ header {
     justify-content: center;
     align-items: center;
     background-image: url(/assets/Hero-bg.png);
-    background-position: absolute;
+    background-position: center;
+    background-size: cover;
     width: 100%;
 }
 
 .header-section {
-
+  
     width: 998px;
     margin: 26px 221px 0px;
     display: flex;
@@ -303,7 +304,7 @@ header {
 }
 
 
-.target-card a{
+.target-card a {
     text-decoration-line: underline;
     color: rgb(13, 19, 33);
     font-size: 16px;
@@ -311,6 +312,28 @@ header {
     line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
-    margin-top:24px;
-    
+    margin-top: 24px;
+
+}
+
+.handshake {
+    background-image: url('./assets/handshake.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1140px;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-left: 148px;
+    margin-right: 148px;
+    margin-top: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 48px;
+
+
+
+
 }
