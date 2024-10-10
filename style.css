@@ -54,7 +54,7 @@ header {
 
 .banner-desc-mini p {
 
-    width:852px;
+    width: 852px;
 
 }
 
@@ -110,8 +110,9 @@ header {
     margin: 48px 46px;
     gap: 24px
 }
-.title p{
-    width:852px;
+
+.title p {
+    width: 852px;
 }
 
 .card-1 {
@@ -167,6 +168,7 @@ header {
     font-weight: 700;
     line-height: 36px;
 }
+
 .title-header-2 {
     color: rgba(13, 19, 33, 0.7);
     width: 477px;
@@ -203,8 +205,9 @@ header {
     padding: 12px 20px 12px 20px;
     background-color: white;
 }
-.main-title-card-p{
-    width:468px;
+
+.main-title-card-p {
+    width: 468px;
 }
 
 .inspiration-banner {
@@ -426,11 +429,24 @@ header {
     padding: 32px 150px 32px 150px;
     margin-top: 80px;
 }
-.footer-section img{
+
+.footer-section img {
     height: 36px;
-    width:36px;
+    width: 36px;
 
 }
-.footer-image{
-    margin:0px 10px;
+
+.footer-section h5 {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+
+.footer-image {
+    margin: 0px 10px;
 }
