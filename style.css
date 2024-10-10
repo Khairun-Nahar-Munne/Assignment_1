@@ -15,7 +15,7 @@ header {
 }
 
 .header-section {
-  
+
     width: 998px;
     margin: 26px 221px 0px;
     display: flex;
@@ -317,23 +317,87 @@ header {
 }
 
 .handshake {
-    background-image: url('./assets/handshake.jpg');
+
+    background: linear-gradient(rgba(0, 0, 0, 0.952), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.618)), url('./assets/handshake.jpg');
+    background-color: rgba(0, 76, 232, 0.05);
+    opacity: .9;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 1140px;
     border-radius: 16px;
-    background-color: rgba(0, 0, 0, 0.2);
     margin-left: 148px;
     margin-right: 148px;
     margin-top: 74px;
+    padding: 64px 48px 64px 48px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 64px 48px;
 
+}
 
+.handshake-desc {
+    width: 730px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 16px 0px;
+}
 
+.handshake-header {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px 0px 16px;
 
+}
+
+.handshake-para {
+    width: 606px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.feedback {
+
+    width: 548px;
+    padding: 19px 20px 19px 20px;
+    margin: 0px 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.handshake-feedback {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback-btn {
+
+    width: 120px;
+    padding: 17px 20px 17px 20px;
+    margin: 0px 16px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
 }
